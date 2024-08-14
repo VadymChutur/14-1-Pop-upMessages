@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.round-close {
+  border: 1px solid red;
+  border: radius 100%;
+  background: red;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 14px;
+}
+
+.block__modal-test {
+  width: 250px;
+  height: 340px;
+  border: 1px solid black;
+  margin: 100px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.block__form-slider {
+  width: 500px;
+  height: 340px;
+  background: grey;
+  transition: all ease 1s;
+}
+
+.block__left-50,
+.block__right-50 {
+  width: 50%;
+  float: left;
+  background: green;
+  min-height: 50px;
+  padding: 10px;
+}
+
+.block__right-50 {
+  background: red;
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+.block__read-rules,
+.block__read-rules {
+  cursor: pointer;
+}

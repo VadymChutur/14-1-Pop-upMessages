@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/modal.css" />
+    <link rel="stylesheet" href="./style/chips.css" />
   </head>
-  <body></body>
+  <body>
+    <button type="button" class="modal-show" data-modal="#sign-in">
+      Show button
+    </button>
+
+    <div class="modal-wrap hide">
+      <div class="modal">
+        Our modal window
+        <button type="button" class="modal-close">Close</button
+        ><button type="button" class="modal-close round-close">x</button>
+      </div>
+    </div>
+
+    <script type="module" src="./script/script.js"></script>
+    <script type="module" src="./script/modal.js"></script>
+    <!-- <script type="module" src="./script/rules_slider.js"></script> -->
+    <script type="module" src="./script/chips.js"></script>
+  </body>
 </html>
